@@ -79,6 +79,23 @@ body {
     margin-top: 74px;
     padding: 2rem 1rem;
 }
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-instagram {
+  transition: color 0.2s;
+  font-size: 160%;
+}
+
+.ion-social-facebook:hover {
+  color: --facebook-color;
+}
+.ion-social-twitter:hover {
+  color: --twitter-color;
+}
+.ion-social-instagram:hover {
+  color: --instagram-color;
+}
 .last-content {
   text-align: center; 
 }
@@ -130,10 +147,10 @@ body {
     transition: color 0.2s;
     font-size: 160%; 
   }
-  .footer-container .ion-social-facebook:hover {
+  .footer-social .ion-social-facebook:hover {
     color: #3b5998; 
   }
-  .footer-container .ion-social-twitter:hover {
+  .footer-social .ion-social-twitter:hover {
     color: #55acee; 
   }
   .footer-container .ion-social-instagram:hover {
@@ -148,7 +165,10 @@ body {
   background-image: url(../IMG/bg-hero-desktop.svg);
   background-color: #ebfbff; 
 }
-
+.footer-social {
+  grid-area: social;
+  text-align: center;
+}
 .header-grid {
   display: grid;
   grid-template-columns: repeat(2, 42% 58%);
@@ -175,6 +195,8 @@ body {
     .header-grid .header-img img {
       width: 100%; 
     }
+
+
 
 @media (max-width: 1023px) {
   .header-container {
@@ -341,6 +363,11 @@ body {
   margin-top: 20rem;
   position: relative;
   background-color: #00252e; }
+  .footer-container {
+    font-size: 14px;
+}
+
+
   .footer-container .footer-container-grid {
     width: 100%;
     height: auto;
@@ -381,7 +408,9 @@ body {
           margin-bottom: 1.5rem; }
     .footer-container .footer-container-grid .footer-social {
       grid-area: social; }
-
+      .footer-container {
+        font-size: 14px;
+    }
 .coded {
   display: flex;
   color: #11272c;
