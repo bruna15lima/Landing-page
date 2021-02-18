@@ -37,3 +37,13 @@ Feedback is always welcome, so if you have any to give on this challenge!
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+---
+
+## **🦸 Autor**
+
+[Bruna Calheiros](https://www.linkedin.com/in/bruna-calheiros/?originalSubdomain=br)[🚀]
+
+---
+
+Feito com muito ❤️ por [bruna15lima](https://github.com/bruna15lima) 👋🏽 [Entre em contato!]
